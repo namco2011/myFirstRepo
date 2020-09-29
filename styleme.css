@@ -1,10 +1,14 @@
 body{
     color: white;
     background-color: dimgrey;
+    font-family: Arial;
 }
 h1,h2{
     color: cornflowerblue;
 }
-em{
+span{
     color: darkorange;
+}
+ul{
+    text-align: -moz-left;
 }
