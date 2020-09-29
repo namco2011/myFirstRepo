@@ -1,0 +1,10 @@
+body{
+    color: white;
+    background-color: dimgrey;
+}
+h1,h2{
+    color: cornflowerblue;
+}
+em{
+    color: darkorange;
+}
