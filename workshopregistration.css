@@ -1,0 +1,45 @@
+body{
+    background-color: lightseagreen;
+}
+header{
+    /*alignment: center;*/
+    /*text-align: center;*/
+
+    background: transparent;
+    border: 0;
+    margin: 10px;
+}
+footer{
+    /*alignment: center;*/
+    margin-top: 0;
+    text-align: center;
+    background-color: lightgray;
+}
+main{
+    margin: 0;
+    background-color: white;
+}
+.address{
+    height: 40px;
+}
+select{
+    width: 150px;
+    font-size: small;
+    text-align: center;
+}
+.title{
+    color: white;
+}
+.marker{
+    color: red;
+    font-size: x-small;
+}
+.button{
+    height: 25px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.moreaction{
+    background: transparent;
+    border: 0;
+}

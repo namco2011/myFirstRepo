@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop Registration</title>
+    <link href="workshopregistration.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<header role="banner">
+    <h1> <span class="title"> Workshop Registration </span>
+    <select class ="moreaction" name="registrationOption">
+        <option>More Actions</option>
+        <option></option>
+    </select>
+    </h1>
+</header>
+
+<main>
+<p><a href="WorkshopRegistration.html">  Register now while seats are available </a> </p>
+<table style="width:100%">
+    <tr>
+        <td>First Name<span class="marker"> *</span> </td>
+        <td><input type="text" name="firstname" required /></td>
+        <td><a href="WorkshopRegistration.html">Lunch</a></td>
+    </tr>
+    <tr>
+        <td>Last Name<span class="marker"> *</span> </td>
+        <td><input type="text" name="lastname" required /></td>
+        <td>Meal Preference</td>
+        <td><select name="lunchoption">
+            <option>Vegitatian</option>
+            <option>Meat</option>
+        </select> </td>
+    </tr>
+    <tr>
+        <td>Company/Institution<span class="marker"> *</span> </td>
+        <td><input type="text" name="company" required/></td>
+        <td><a href="WorkshopRegistration.html">Payment Detail</a></td>
+    </tr>
+    <tr>
+        <td>Address<span class="marker"> *</span> </td>
+        <td><input class="address" name="address" required/></td>
+        <td>Payment Mode</td>
+        <td> <input type="checkbox" name="cash" /> Cash <br/>
+            <input type="checkbox" name="cheque" checked /> Cheque<br/>
+            <input type="checkbox" name="dd" checked /> Demand Draft </td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td><input type="text" name="city" /></td>
+        <td>DD/Cheque No.</td>
+        <td><input type="text" name="chequeNo" pattern="[0-9]"/></td>
+    </tr>
+    <tr>
+        <td>State /Province /Region</td>
+        <td><select name="state">
+            <option>Iowa</option>
+            <option>Georgia</option>
+            <option>Maryland</option>
+            <option>Ho Chi Minh</option>
+            <option>Lam Dong</option>
+        </select></td>
+        <td>Drawn On(Bank Name)</td>
+        <td><input type="text" name="drawnOn" /></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td><select name="country">
+            <option>US</option>
+            <option>Viet Nam</option>
+            <option>Ethiopia</option>
+        </select></td>
+        <td>Payable at</td>
+        <td><input type="text" name="payable" /></td>
+    </tr>
+    <tr>
+        <td>Email<span class="marker"> *</span> </td>
+        <td><input type="text" name="mail" required/></td>
+
+    </tr>
+    <tr>
+        <td>Phone Number<span class="marker"> *</span> </td>
+        <td><input type="text" name="phone" required/></td>
+    </tr>
+</table>
+</main>
+</body>
+<footer>
+    <br/>
+    <input class="button" type="submit" value="Submit"/>
+    <input class="button" type="reset" value="Reset"/>
+</footer>
+</html>
