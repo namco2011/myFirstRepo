@@ -62,8 +62,14 @@ select{
 .column1 >div{
     height: 23px;
 }
-.column2 >div{
+.column1 .address{
+    height: 68px;
+}
+.column2 .c2{
     height: 23px;
+}
+.column2 .address{
+    height: 68px;
 }
 .column3 .c3{
     height: 23px;
@@ -82,3 +88,4 @@ select{
 .dot{
     visibility: hidden;
 }
+
