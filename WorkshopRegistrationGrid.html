@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop Registration</title>
+    <link href="workshopregistrationgrid.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<header role="banner">
+    <h1><span class="title"> Workshop Registration </span>
+        <select class="moreaction" name="registrationOption">
+            <option>More Actions</option>
+            <option></option>
+        </select>
+    </h1>
+</header>
+
+<main>
+    <div><p class="underline">Register now while seats are available</p></div>
+    <div class="body">
+        <div class="column1">
+            <div>  First Name<span class="marker"> *</span> </div>
+            <div>  Last Name<span class="marker"> *</span> </div>
+            <div>  Company/Institution<span class="marker"> *</span> </div>
+            <div>  Address<span class="marker"> *</span> </div>
+            <div>  City </div>
+            <div>  State /Province /Region </div>
+            <div>  Country </div>
+            <div>  Email<span class="marker"> *</span> </div>
+            <div>  Phone Number<span class="marker"> *</span> </div>
+
+        </div>
+        <div class="column2">
+            <div>  <input type="text" name="firstname" required/> </div>
+            <div>  <input type="text" name="lastname" required/> </div>
+            <div>  <input type="text" name="company" required/> </div>
+            <div>  <input class="address" name="address" required/> </div>
+            <div>  <input type="text" name="city"/> </div>
+            <div>  <select name="state">
+                <option>Iowa</option>
+                <option>Georgia</option>
+                <option>Maryland</option>
+                <option>Ho Chi Minh</option>
+                <option>Lam Dong</option>
+            </select> </div>
+            <div>  <select name="country">
+                <option>US</option>
+                <option>Viet Nam</option>
+                <option>Ethiopia</option>
+            </select> </div>
+            <div>  <input type="text" name="email"required/> </div>
+            <div>  <input type="text" name="phonenumber" required/> </div>
+        </div>
+        <div class="column3">
+            <div class ="c3"><span class="underline">Lunch</span></div>
+            <div class ="c3">Meal Preference</div>
+            <div class="underline" class ="c3">Payment Detail</div>
+            <div class = "checkbox"> Payment Mode</div>
+            <div class ="c3"> DD/Cheque No.</div>
+            <div class ="c3"> Drawn On(Bank Name)</div>
+            <div class ="c3"> Payable at</div>
+        </div>
+        <div class="column4">
+            <div class ="c4" ><span class="dot">.</span></div>
+            <div class ="c4"><select name="lunchoption">
+                <option>Vegitatian</option>
+                <option>Meat</option>
+            </select> </div>
+            <div class ="c4"><span class="dot">.</span></div>
+            <div class = "checkbox"> <input type="checkbox" name="cash"/> Cash <br/>
+                <input type="checkbox" name="cheque" /> Cheque<br/>
+                <input type="checkbox" name="dd" /> Demand Draft </div>
+            <div class ="c4"> <input type="text" name="chequeNo" pattern="[0-9]"/> </div>
+            <div class ="c4"> <input type="text" name="drawnOn"/></div>
+            <div class ="c4"> <input type="text" name="payable"/></div>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <br/>
+    <input class="button" type="submit" value="Submit"/>
+    <input class="button" type="reset" value="Reset"/>
+</footer>
+
+</body>
+
+</html>
