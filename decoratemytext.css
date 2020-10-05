@@ -1,0 +1,17 @@
+
+fieldset > legend {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+textarea {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bodybling {
+    background-image: url('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg');
+}
+.bling {
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
