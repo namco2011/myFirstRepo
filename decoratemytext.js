@@ -14,7 +14,7 @@ function changeText(){
 }
 function bling(){
     var checked = document.getElementById('check');
-    var text = document.getElementById('textArea').value;
+    var text = document.getElementById('textArea');
     if(checked.checked){text.className = "bling";
         document.body.className = "bodybling";}
 }
